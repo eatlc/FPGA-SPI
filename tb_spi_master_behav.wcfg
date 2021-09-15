@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_spi_master_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_spi_master" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6770001fs"></ZoomEndTime>
+      <Cursor1Time time="7725000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="384"></NameColumnWidth>
+      <ValueColumnWidth column_width="361"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_spi_master/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/en_i" type="logic">
+      <obj_property name="ElementShortName">en_i</obj_property>
+      <obj_property name="ObjectShortName">en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/mosi_data_i" type="array">
+      <obj_property name="ElementShortName">mosi_data_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mosi_data_i[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/miso_data_o" type="array">
+      <obj_property name="ElementShortName">miso_data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">miso_data_o[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/data_ready_o" type="logic">
+      <obj_property name="ElementShortName">data_ready_o</obj_property>
+      <obj_property name="ObjectShortName">data_ready_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/cs_o" type="logic">
+      <obj_property name="ElementShortName">cs_o</obj_property>
+      <obj_property name="ObjectShortName">cs_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/sclk_o" type="logic">
+      <obj_property name="ElementShortName">sclk_o</obj_property>
+      <obj_property name="ObjectShortName">sclk_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/mosi_o" type="logic">
+      <obj_property name="ElementShortName">mosi_o</obj_property>
+      <obj_property name="ObjectShortName">mosi_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/miso_i" type="logic">
+      <obj_property name="ElementShortName">miso_i</obj_property>
+      <obj_property name="ObjectShortName">miso_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/SPISIGNAL" type="array">
+      <obj_property name="ElementShortName">SPISIGNAL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPISIGNAL[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/spiWrite" type="logic">
+      <obj_property name="ElementShortName">spiWrite</obj_property>
+      <obj_property name="ObjectShortName">spiWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/spiWriteDone" type="logic">
+      <obj_property name="ElementShortName">spiWriteDone</obj_property>
+      <obj_property name="ObjectShortName">spiWriteDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/c_clkfreq" type="other">
+      <obj_property name="ElementShortName">c_clkfreq</obj_property>
+      <obj_property name="ObjectShortName">c_clkfreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/c_sclkfreq" type="other">
+      <obj_property name="ElementShortName">c_sclkfreq</obj_property>
+      <obj_property name="ObjectShortName">c_sclkfreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/c_cpol" type="logic">
+      <obj_property name="ElementShortName">c_cpol</obj_property>
+      <obj_property name="ObjectShortName">c_cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/c_cpha" type="logic">
+      <obj_property name="ElementShortName">c_cpha</obj_property>
+      <obj_property name="ObjectShortName">c_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/clk_i_period" type="other">
+      <obj_property name="ElementShortName">clk_i_period</obj_property>
+      <obj_property name="ObjectShortName">clk_i_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/sckPeriod" type="other">
+      <obj_property name="ElementShortName">sckPeriod</obj_property>
+      <obj_property name="ObjectShortName">sckPeriod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/inst_spi/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/inst_spi/cntr" type="other">
+      <obj_property name="ElementShortName">cntr</obj_property>
+      <obj_property name="ObjectShortName">cntr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/inst_spi/once" type="logic">
+      <obj_property name="ElementShortName">once</obj_property>
+      <obj_property name="ObjectShortName">once</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/inst_spi/miso_en" type="logic">
+      <obj_property name="ElementShortName">miso_en</obj_property>
+      <obj_property name="ObjectShortName">miso_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_master/inst_spi/mosi_en" type="logic">
+      <obj_property name="ElementShortName">mosi_en</obj_property>
+      <obj_property name="ObjectShortName">mosi_en</obj_property>
+   </wvobject>
+</wave_config>
